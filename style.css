@@ -1,0 +1,41 @@
+body
+{
+	background: #000;
+	padding: 0;
+	color: green;
+	font-family: 'Modak', cursive;
+	line-height: 16px;
+	letter-spacing: -1px;
+	font-size: 50px;
+	text-align: center;
+	margin: 50px;
+}
+
+.brown
+{
+	color: brown;
+}
+
+.star
+{
+	color: yellow;
+	font-size: 70px;
+	animation-name:star;
+		animation-duration:0.5s;
+		animation-iteration-count:infinite;
+	padding: 0;
+	margin: 0;
+	
+
+}
+
+.invisible
+{
+	color: #000;
+	display: inline;
+}
+@keyframes star
+      {
+          0% { color: yellow;}
+          100% { color: #fff67c; font-size: 72px;}
+      }
