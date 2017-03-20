@@ -1,5 +1,5 @@
-var n = prompt("Podaj wysokość choinki: ", "");
-
+var l = prompt("Podaj wysokość choinki: ", "");
+var n= parseInt(l);
 k=1;
 for (i=0;i<n; i++)
 {
